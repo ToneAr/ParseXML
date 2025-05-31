@@ -1,4 +1,4 @@
-BeginPackage["TonyAristeidou`XMLParse`", {
+BeginPackage["ToneAr`ParseXML`", {
 	"GeneralUtilities`"
 }];
 

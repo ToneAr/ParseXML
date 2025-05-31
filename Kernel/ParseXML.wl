@@ -1,4 +1,4 @@
-Get["TonyAristeidou`XMLParse`"<>#]& /@ {
+Get["ToneAr`ParseXML`"<>#]& /@ {
 	"PublicScope`",
 	"PackageScope`",
 

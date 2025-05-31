@@ -1,6 +1,6 @@
-BeginPackage["TonyAristeidou`XMLParse`Export`", {
-	"TonyAristeidou`XMLParse`PackageScope`",
-	"TonyAristeidou`XMLParse`",
+BeginPackage["ToneAr`ParseXML`Export`", {
+	"ToneAr`ParseXML`PackageScope`",
+	"ToneAr`ParseXML`",
 	"GeneralUtilities`"
 }];
 
@@ -45,7 +45,7 @@ ExportXML[doc_Association] := Module[{
 		Rule[name_, XMLElement[{urn_, ""}, props_, child_]] :> (
 			XMLElement[
 				{urn, name},
-				props, 
+				props,
 				If[ListQ[child], Flatten[child], child]
 			]
 		)

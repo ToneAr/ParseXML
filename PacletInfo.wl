@@ -1,25 +1,31 @@
 PacletObject[
 	<|
-		"Name" -> "TonyAristeidou/XMLParse",
-		"PublisherID" -> "TonyAristeidou",
+		"Name" -> "ToneAr/ParseXML",
+		"PublisherID" -> "ToneAr",
 		"Creator" -> "Antonis Aristeidou",
 		"Version" -> "1.0.0",
-		"WolframVersion" -> "13.0+",
+		"WolframVersion" -> "12.2+",
 		"Description" -> "Two way parsing of XML into document associations",
-		"PrimaryContext" -> "TonyAristeidou`XMLParse`",
+		"PrimaryContext" -> "ToneAr`ParseXML`",
 		"License" -> "MIT",
 		"Extensions" ->
 			{
 				{
 					"Kernel",
 					"Root" -> "Kernel",
-					"Context" -> "TonyAristeidou`XMLParse`",
+					"Context" -> "ToneAr`ParseXML`",
 					"Symbols" -> {
-						"TonyAristeidou`XMLParse`ExportXML",
-						"TonyAristeidou`XMLParse`ParseXML"
+						"ToneAr`ParseXML`ExportXML",
+						"ToneAr`ParseXML`ParseXML"
 					}
 				},
-				{"Documentation"}
+				{"Documentation"},
+				{"Asset",
+					"Root" -> "Resources",
+					"Assets" -> {
+						{"logo.svg", "Icons/logo.svg"}
+					}
+				}
 			}
 	|>
 ]

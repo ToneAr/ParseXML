@@ -1,7 +1,7 @@
-# XMLParse Paclet
+# ParseXML Paclet
 
 ## Overview
-The XMLParse paclet provides a robust two-way conversion system between XML documents and Wolfram Language associations. It allows users to easily parse XML into structured association data for manipulation and then convert that data back to XML. This paclet is designed to simplify XML data handling within the Wolfram Language environment.
+The ParseXML paclet provides a robust two-way conversion system between XML documents and Wolfram Language associations. It allows users to easily parse XML into structured association data for manipulation and then convert that data back to XML. This paclet is designed to simplify XML data handling within the Wolfram Language environment.
 
 ## Features
 - **XML Parsing**: Convert XML documents into nested Wolfram Language associations for easy manipulation.
@@ -10,10 +10,10 @@ The XMLParse paclet provides a robust two-way conversion system between XML docu
 - **Support for Namespaces**: Handle XML namespaces.
 
 ## Installation
-To install the XMLParse paclet, use the following command in your Wolfram Language session:
+To install the ParseXML paclet, use the following command in your Wolfram Language session:
 
 ```wolfram
-PacletInstall["TonyAristeidou/XMLParse"]
+PacletInstall["ToneAr/ParseXML"]
 ```
 
 ## Usage
@@ -67,13 +67,13 @@ Out[1]:= <|
 						"Children" -> "Reminder",
 						"Properties" -> {},
 						"URN" -> Missing[]
-					|>, 
+					|>,
 					"body" -> <|
 						"Children" -> "Don't forget me this weekend!",
 						"Properties" -> {},
 						"URN" -> Missing[]
 					|>
-				|>, 
+				|>,
 				"Properties" -> {},
 				"URN" -> Missing[]
 			|>
@@ -91,7 +91,7 @@ Out[2]:= <|
 	"Document" -> <|
 		"note" -> <|
 			"to" -> "Tove",
-			"from" -> "Jani", 
+			"from" -> "Jani",
 			"heading" -> "Reminder",
 			"body" -> "Don't forget me this weekend!"
 		|>
